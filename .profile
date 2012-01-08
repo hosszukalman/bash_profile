@@ -8,6 +8,10 @@ if [ -f /opt/local/etc/bash_completion ]; then
    . /opt/local/etc/bash_completion
 fi
 
+# Nice colors in terminal
+export CLICOLOR=true
+export LSCOLORS=ExFxCxDxBxegedabagacad
+
 # Nice prompt
 PS1='\[\033[0;32m\][\t]\[\033[0m\] \u@\h:\[\033[0;33m\]\w\[\033[0;31m\]$(__git_ps1)\[\033[00m\] \$ '
 
