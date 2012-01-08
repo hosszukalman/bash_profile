@@ -14,7 +14,12 @@ PS1='\[\033[0;32m\][\t]\[\033[0m\] \u@\h:\[\033[0;33m\]\w\[\033[0;31m\]$(__git_p
 # Old promt
 # PS1='\[\033[0;32m\][\t]\[\033[0m\] \u@\h:\[\033[0;33m\]\w\[\033[0m\] \$ '
 
+# Productivity
+alias ..="cd .."
 alias ls="ls -lhaG"
+alias l="ls"
+alias du="du -h"
+alias grep="grep --color"
 alias tedit="open -a TextWrangler"
 alias preview="open -a Preview"
 alias pass="open -a KeePassX /Users/kalmanhosszu/Documents/Passwords/webPasswords.kdb"
