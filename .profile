@@ -25,6 +25,11 @@ alias preview="open -a Preview"
 alias pass="open -a KeePassX /Users/kalmanhosszu/Documents/Passwords/webPasswords.kdb"
 alias mamp="open -a MAMP"
 
+# Drupal
+alias ddl="drush dl"
+alias dcc="drush cc all"
+alias den="drush en -y"
+
 export EDITOR=vim
 
 ##
