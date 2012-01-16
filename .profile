@@ -34,6 +34,14 @@ alias ddl="drush dl"
 alias dcc="drush cc all"
 alias den="drush en -y"
 
+# Git
+alias gpull="git pull"
+alias gpush="git push"
+alias gac="git commit -am"
+alias gc="git commit -m"
+alias ga="git add"
+alias gs="git status"
+
 export EDITOR=vim
 
 ##
