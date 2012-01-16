@@ -37,7 +37,7 @@ alias den="drush en -y"
 # Git
 alias gpull="git pull"
 alias gpush="git push"
-alias gac="git commit -am"
+alias gca="git commit -am"
 alias gc="git commit -m"
 alias ga="git add"
 alias gs="git status"
