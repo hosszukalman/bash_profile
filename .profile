@@ -44,6 +44,9 @@ alias ga="git add"
 alias gs="git status" 
 alias gd="git diff"
 
+# Other
+alias kannas="ssh kalman@hosszukalman.no-ip.org"
+
 export EDITOR=vim
 
 ##
