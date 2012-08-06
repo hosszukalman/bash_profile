@@ -29,6 +29,7 @@ alias sedit="open -a 'Sublime Text 2'"
 alias preview="open -a Preview"
 alias pass="open -a KeePassX /Users/kalmanhosszu/Documents/Passwords/webPasswords.kdb"
 alias mamp="open -a MAMP"
+alias importer="git clone git@github.com:hosszukalman/mysqlDbImporter.git"
 
 # Drupal
 alias ddl="drush dl"
