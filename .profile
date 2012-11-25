@@ -1,6 +1,10 @@
-# Set git autocompletion and PS1 integration
+# Set git autocompletion
 if [ -f /opt/local/share/doc/git-core/contrib/completion/git-completion.bash  ]; then
     . /opt/local/share/doc/git-core/contrib/completion/git-completion.bash
+fi
+# Set PS1 integration
+if [ -f /opt/local/share/git-core/git-prompt.sh   ]; then
+    . /opt/local/share/git-core/git-prompt.sh
 fi
 GIT_PS1_SHOWDIRTYSTATE=true
 
