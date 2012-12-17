@@ -34,6 +34,7 @@ alias preview="open -a Preview"
 alias pass="open -a KeePassX /Users/kalmanhosszu/Documents/Passwords/webPasswords.kdb"
 alias mamp="open -a MAMP"
 alias importer="git clone git@github.com:hosszukalman/mysqlDbImporter.git"
+alias exporter="git clone git@github.com:hosszukalman/mysqlDbExporter.git"
 alias newsite="drush dl clear_admin --drupal-project-rename=www"
 
 # Drupal
