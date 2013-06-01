@@ -17,7 +17,7 @@ export CLICOLOR=true
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 # Nice prompt
-PS1='\[\033[0;32m\][\t]\[\033[0m\] \u@\h:\[\033[0;33m\]\w\[\033[0;31m\]$(__git_ps1)\[\033[00m\] \$ '
+PS1='\[\033[0;32m\][\t]\[\033[0m\] \u@\h:\[\033[0;33m\]\w\[\033[0;31m\]$(__git_ps1)\[\033[00m\] \n\$ '
 
 # Old promt
 # PS1='\[\033[0;32m\][\t]\[\033[0m\] \u@\h:\[\033[0;33m\]\w\[\033[0m\] \$ '
